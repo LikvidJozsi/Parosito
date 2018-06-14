@@ -1,0 +1,3 @@
+# Parosito
+
+Számvitelben gyakori probléma, hogy egy bizonyos tétel egy számlára le van könyvelve, de az ellenszámláról lemaradt, ekkor nem egyezik az egyenleg, de sokszáz tételből nehéz megtalálni. Nem triviális feladat meghatározni, hogy mely tételek tartoznak egymáshoz és melyek hibásak. A program lértrehoz egy gráfot a tételekből, melyben két tétel akkor vna összekötve, ha a kettő felvétele időben egy megadható kritériumon belül van, az összegük megegyezik (de az előjelük ellentétes). Ebben a gráfban egy meximális párosítást kell keresni és az ebből a párosításból kimaradt tételek nagy valószínűséggel azok, amik hibásan lettek könyvelve. A program egy excel táblát vár bemenetként, ami az Apache foundation open source API-jával kezel.
